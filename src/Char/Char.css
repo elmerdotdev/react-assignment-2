@@ -1,3 +1,7 @@
+.letters::selection {
+  background: transparent;
+}
+
 .letters {
   display: flex;
   justify-content: center;
