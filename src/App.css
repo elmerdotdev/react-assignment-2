@@ -13,14 +13,6 @@ body {
   font-size: 18px;
 }
 
-ol {
-  text-align: left;
-}
-
-ol li {
-  margin-bottom: 0.5rem;
-}
-
 input {
   padding: 12px;
   font-size: 0.85rem;
@@ -28,10 +20,6 @@ input {
   border: 1px solid #333;
   outline: none;
   border-radius: 20px;
-}
-
-code {
-  background: #000;
 }
 
 .App {
@@ -62,29 +50,6 @@ code {
 
 .App-intro {
   font-size: 0.8rem;
-}
-
-.assignmentDetails {
-  position: relative;
-  margin-top: 1.5rem;
-  padding: 1rem 1rem 0.5rem 0.5rem;
-  height: 180px;
-  background: #000;
-  font-size: 0.7rem;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
-
-.assignmentDetails:before {
-  content: 'Based on the assignment instructions below:';
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  padding: 2px 4px;
-  background: #eee;
-  color: #000;
-  font-size: 0.65rem;
 }
 
 @keyframes App-logo-spin {
