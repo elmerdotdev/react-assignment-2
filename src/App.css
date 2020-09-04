@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+ol {
+  text-align: left;
+}
+
+input {
+  padding: 12px;
+  font-size: 0.85rem;
+  text-align: center;
+  border: 1px solid #333;
+  outline: none;
+  border-radius: 20px;
+}
+
+code {
+  background: #000;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  height: 100vh;
+  background-color: #222;
+}
+
+.App-header {
+  padding: 20px;
+  width: 100%;
+  max-width: 540px;
+  color: white;
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: 0.8rem;
+}
+
+.assignmentDetails {
+  position: relative;
+  margin-top: 1.5rem;
+  padding: 1rem 1rem 0.5rem 0.5rem;
+  height: 180px;
+  background: #000;
+  font-size: 0.7rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.assignmentDetails:before {
+  content: 'Based on the assignment instructions below:';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  padding: 2px 4px;
+  background: #eee;
+  color: #000;
+  font-size: 0.65rem;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

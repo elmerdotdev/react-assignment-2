@@ -1,0 +1,19 @@
+.letters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1px 0.5rem;
+  min-width: 35px;
+  min-height: 35px;
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+}
+
+.letters:hover {
+  background: #000;
+  color: #fff;
+}
