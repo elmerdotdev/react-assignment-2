@@ -75,7 +75,7 @@ class App extends Component {
               placeholder="Enter some text..."
             />
             <Validation length={this.state.length} />
-            <p>Characer Count: {this.state.length}</p>
+            <p>Character Count: {this.state.length}</p>
             {characters}
             <div className="assignmentDetails">
               <code>
