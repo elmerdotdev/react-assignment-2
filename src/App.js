@@ -19,7 +19,7 @@ class App extends Component {
     const length = text.length;
     const textArray = text.split('');
     this.setState({
-      text: event.target.value,
+      text: text,
       length: length,
       textArray: textArray,
     });
